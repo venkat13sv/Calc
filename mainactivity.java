@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 
-public class MainActivity extends Activity implements OnClickListener 
+public class MainActivity extends Activity 
 {
     Button nine,eig,sev,six,fiv,four,thr,two,one,zero,dot,plus,mins,div,mul,eq,cl;
     EditText et;
@@ -22,42 +22,7 @@ public class MainActivity extends Activity implements OnClickListener
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        nine=(Button)findViewById(R.id.b9);
-        eig=(Button)findViewById(R.id.b8);
-        sev=(Button)findViewById(R.id.b7);
-        six=(Button)findViewById(R.id.b6);
-        fiv=(Button)findViewById(R.id.b5);
-        four=(Button)findViewById(R.id.b4);
-        thr=(Button)findViewById(R.id.b3);
-        two=(Button)findViewById(R.id.b2);
-        one=(Button)findViewById(R.id.b1);
-        zero=(Button)findViewById(R.id.b0);
-        dot=(Button)findViewById(R.id.bd);
-        plus=(Button)findViewById(R.id.bpl);
-        mins=(Button)findViewById(R.id.bmin);
-        div=(Button)findViewById(R.id.bdiv);
-        mul=(Button)findViewById(R.id.bmul);
-        eq=(Button)findViewById(R.id.beq);
-        cl=(Button)findViewById(R.id.bcl);
-        et=(EditText)findViewById(R.id.Etext);
-        nine.setOnClickListener(this);
-        eig.setOnClickListener(this);
-        sev.setOnClickListener(this);
-        six.setOnClickListener(this);
-        fiv.setOnClickListener(this);
-        four.setOnClickListener(this);
-        thr.setOnClickListener(this);
-        two.setOnClickListener(this);
-        one.setOnClickListener(this);
-        dot.setOnClickListener(this);
-        plus.setOnClickListener(this);
-        mins.setOnClickListener(this);
-        div.setOnClickListener(this);
-        mul.setOnClickListener(this);
-        eq.setOnClickListener(this);
-        cl.setOnClickListener(this);
-        et.setOnClickListener(this);
-    }
+      
 
     @Override
     public void onClick(View v) 
